@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kunal Rameshwar Jaybhaye | Portfolio</title>
+<style>
+:root{--bg:#0b1020;--panel:#141e33;--ink:#eef3ff;--muted:#afbdd5;--accent:#67d7c5;--line:#2b3a55}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at 85% 0,#203b58 0,transparent 32%),var(--bg);color:var(--ink);font:16px/1.65 system-ui,Arial,sans-serif}
+.wrap{width:min(1050px,90%);margin:auto}
+header{position:sticky;top:0;background:#0b1020ed;border-bottom:1px solid var(--line);z-index:2}
+nav{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:17px 0}
+.brand{font-weight:800;color:var(--ink);text-decoration:none}
+.navlinks{display:flex;gap:18px;flex-wrap:wrap}
+.navlinks a{color:var(--muted);text-decoration:none;font-size:.92rem}
+.hero{padding:90px 0 75px;display:grid;grid-template-columns:1.5fr .8fr;gap:30px;align-items:center}
+.eyebrow{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:.8rem}
+h1{font-size:clamp(2.7rem,7vw,5rem);line-height:1.04;letter-spacing:-2px;margin:15px 0 20px}
+.lead,.muted{color:var(--muted)}
+.lead{font-size:1.12rem;max-width:660px}
+.hero-card,.card{background:linear-gradient(145deg,#192943,#111a2d);border:1px solid var(--line);border-radius:20px;padding:25px}
+.gear{font-size:4rem;color:var(--accent)}
+.button{display:inline-block;margin-top:15px;background:var(--accent);color:#07131a;padding:11px 18px;border-radius:30px;text-decoration:none;font-weight:800}
+section{padding:55px 0;border-top:1px solid var(--line)}
+h2{font-size:2rem;margin:0 0 20px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+.card h3{margin:0 0 8px}
+.card p{color:var(--muted);margin:0}
+.metric{font-size:2rem;color:var(--accent);font-weight:800}
+.tags{display:flex;flex-wrap:wrap;gap:10px}
+.tag{border:1px solid #3b5971;background:#14243a;padding:8px 13px;border-radius:30px}
+a{color:var(--accent)}
+footer{text-align:center;color:var(--muted);padding:30px 0}
+@media(max-width:700px){
+nav{align-items:flex-start;flex-direction:column}
+.navlinks{gap:12px}
+.hero{grid-template-columns:1fr;padding:65px 0 50px}
+.grid{grid-template-columns:1fr}
+h1{letter-spacing:-1px}
+}
+</style>
+</head>
+<body>
+<header>
+<nav class="wrap">
+<a class="brand" href="#home">KUNAL JAYBHAYE</a>
+<div class="navlinks">
+<a href="#about">About</a>
+<a href="#education">Education</a>
+<a href="#skills">Skills</a>
+<a href="#interests">Interests</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+</header>
+<main>
+<div class="wrap hero" id="home">
+<div>
+<div class="eyebrow">First-year Mechanical Engineering Student</div>
+<h1>Kunal Rameshwar Jaybhaye</h1>
+<p class="lead">A curious and quick-learning student at Shri Sant Gajanan Maharaj College of Engineering, Shegaon. I enjoy creativity, strategic thinking, communicating with people, and learning new things.</p>
+<a class="button" href="#about">Explore my portfolio</a>
+</div>
+<aside class="hero-card">
+<div class="gear">⚙</div>
+<h3>Learning. Creating. Improving.</h3>
+<p class="muted">Building a strong foundation in engineering while exploring new ideas and skills.</p>
+</aside>
+</div>
+<section id="about">
+<div class="wrap">
+<h2>About Me</h2>
+<p class="muted">My name is Kunal Rameshwar Jaybhaye. My father is a government employee and my mother is a homemaker. I am a quick learner, communicate efficiently with people, and am always eager to learn new things.</p>
+</div>
+</section>
+<section id="education">
+<div class="wrap">
+<h2>Education</h2>
+<div class="grid">
+<article class="card">
+<h3>B.E. – Mechanical Engineering</h3>
+<p>First Year<br>Shri Sant Gajanan Maharaj College of Engineering, Shegaon</p>
+</article>
+<article class="card">
+<h3>Higher Secondary (HSC)</h3>
+<p>Jijamata Junior College</p>
+<div class="metric">89%</div>
+<p>HSC examination</p>
+</article>
+<article class="card">
+<h3>Secondary (SSC)</h3>
+<p>Jain English School</p>
+<div class="metric">90%</div>
+<p>SSC examination</p>
+</article>
+</div>
+</div>
+</section>
+<section id="skills">
+<div class="wrap">
+<h2>Skills & Strengths</h2>
+<div class="tags">
+<span class="tag">Quick learner</span>
+<span class="tag">Effective communication</span>
+<span class="tag">Creative thinking</span>
+<span class="tag">Curiosity</span>
+<span class="tag">Willingness to learn</span>
+</div>
+</div>
+</section>
+<section id="interests">
+<div class="wrap">
+<h2>Achievements & Interests</h2>
+<div class="grid">
+<article class="card">
+<h3>Drawing</h3>
+<p>I enjoy drawing and have cleared the Elementary and Intermediate drawing examinations.</p>
+</article>
+<article class="card">
+<h3>Olympiad Examinations</h3>
+<p>I have qualified in Olympiad examinations several times.</p>
+</article>
+<article class="card">
+<h3>Chess</h3>
+<p>I enjoy playing chess and practising patience, planning, and strategic thinking.</p>
+</article>
+</div>
+</div>
+</section>
+<section id="contact">
+<div class="wrap">
+<h2>Contact</h2>
+<div class="card">
+<p><strong>Email:</strong> <a href="mailto:kunaljaybhaye43@gmail.com">kunaljaybhaye43@gmail.com</a></p>
+<p><strong>Instagram:</strong> <a href="https://www.instagram.com/_kunal_jaybhaye/" target="_blank" rel="noopener">@_kunal_jaybhaye</a></p>
+</div>
+<p class="muted">Your phone number is not displayed publicly to help protect your privacy.</p>
+</div>
+</section>
+</main>
+<footer>© 2026 Kunal Rameshwar Jaybhaye</footer>
+</body>
+</html>
